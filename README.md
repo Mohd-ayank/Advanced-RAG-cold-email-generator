@@ -14,10 +14,16 @@ By leveraging an **Advanced Retrieval-Augmented Generation (RAG)** architectureâ
 
 ## Application Showcase
 
-> **Note to self:** *Upload your UI screenshots to a `docs/` or `assets/` folder in your repo and replace the links below!*
+![App UI Screenshot](Screenshots/UI_w_o_genrating_email.png)
+*Figure 1: The Streamlit UI where a user inputs a job URL and views the extracted skills*
 
-![App UI Screenshot]()
-*Figure 1: The Streamlit UI where a user inputs a job URL and views the extracted skills alongside the final generated email.*
+---
+![App UI Screenshot](Screenshots/processing_steps.png)
+*Figure 2: The processing steps*
+
+---
+![App UI Screenshot](Screenshots/Gnerated_email.png)
+*Figure 3: The generated email with skills*
 
 ---
 
