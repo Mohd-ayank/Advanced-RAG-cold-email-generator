@@ -85,7 +85,7 @@ def fetch_github_repos():
     # Save the final dataset to a CSV file
     df = pd.DataFrame(github_repositories)
     df.to_csv(output_file, index=False)
-    print(f"\n✅ Successfully saved {len(github_repositories)} unique repositories to {output_file}!")
+    print(f"\n Successfully saved {len(github_repositories)} unique repositories to {output_file}!")
 
 if __name__ == "__main__":
     fetch_github_repos()
