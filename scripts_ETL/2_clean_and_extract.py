@@ -180,7 +180,7 @@ def main():
 
     # Final Save
     pd.DataFrame(results).to_csv(FINAL_JSON_CSV, index=False)
-    print(f"\n✅ Completed Successfully! Final dataset saved to {FINAL_JSON_CSV}")
+    print(f"\n Completed Successfully! Final dataset saved to {FINAL_JSON_CSV}")
 
 if __name__ == "__main__":
     main()
