@@ -12,7 +12,7 @@ from langchain_core.documents import Document
 from langchain_huggingface import HuggingFaceEmbeddings
 import sys
 
-# Add the root directory to the system path so we can import from src.config
+# Adding the root directory to the system path so we can import from src.config
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.config import WEAVIATE_URL, WEAVIATE_API_KEY, HF_TOKEN
 
@@ -105,7 +105,7 @@ def main():
     if len(collection.batch.failed_objects) > 0:
         print("Some objects failed to insert!")
     else:
-        print("Database successfully populated with your portfolio!")
+        print("Database successfully populated with the portfolio!")
 
     client.close()
 
