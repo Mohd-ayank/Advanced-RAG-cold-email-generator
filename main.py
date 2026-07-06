@@ -1,4 +1,4 @@
-# main.py
+
 from src.scraper import JobScraper
 from src.llm_service import LLMService
 from src.retriever import PortfolioRetriever
