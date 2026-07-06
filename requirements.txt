@@ -14,11 +14,11 @@ langchain-text-splitters>=0.2.0
 # --- LLM Providers ---
 langchain-groq>=0.1.0
 
-# --- Web Scraping (Required under the hood by WebBaseLoader) ---
+# --- Web Scraping (Required for WebBaseLoader) ---
 beautifulsoup4>=4.12.0
 
 # --- Vector Database & Hybrid Search ---
-weaviate-client>=4.4.0  # Must be v4+ for the new connect_to_weaviate_cloud API
+weaviate-client>=4.4.0  # v4+ for the new connect_to_weaviate_cloud API
 
 # --- Embeddings & Reranking ---
 cohere>=5.0.0
